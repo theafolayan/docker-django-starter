@@ -11,4 +11,10 @@ def index(request):
 def detail(request, question_id):
     return HttpResponse("youre looking at question %s." % question_id)
 
- 
+ # results view 
+def results(request, question_id): 
+     response = "You're looking at the results of question %s."
+     return HttpResponse(resonse % question_id)
+
+
+    
