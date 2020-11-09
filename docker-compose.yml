@@ -3,6 +3,6 @@
  services: 
     web: 
         build: .
-        command: python manage.py runserver 127.0.0.1:8000
+        command: python manage.py runserver localhost:8000
         ports: 
             - 8000:8000 
